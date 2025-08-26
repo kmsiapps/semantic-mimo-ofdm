@@ -1,0 +1,3 @@
+__pycache__
+SERVER/logs/*
+SERVER/data/*

@@ -1,0 +1,9 @@
+
+USRP_ADDR0 = '192.168.110.*'
+USRP_ADDR1 = '192.168.10.*'
+SERVER_HOST = '***.***.***.***'
+SERVER_PORT = 8080
+
+
+
+    
