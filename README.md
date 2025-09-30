@@ -5,6 +5,20 @@ This repository contains the code for the paper
 [Bridging Neural Networks and Wireless Systems with MIMO-OFDM Semantic Communications](https://arxiv.org/abs/2501.16726).  
 Data and model checkpoints for the semantic server are available at [Hugging Face][huggingface].
 
+If you find this repository or code useful, please consider citing our work:
+```
+@ARTICLE{yoo2025bridging,
+  author={Yoo, Hanju and Choi, Dongha and Kim, Yonghwi and Kim, Yoontae and Kim, Songkuk and Chae, Chan-Byoung and Heath, Robert W.},
+  journal={IEEE Wireless Communications}, 
+  title={Bridging Neural Networks And Wireless Systems with MIMO-OFDM Semantic Communications}, 
+  year={2025},
+  volume={32},
+  number={5},
+  pages={48-55},
+  month={Sept.}}
+```
+
+
 ### Directories
 - `SERVER/`: TCP-based server script for semantic encoding/decoding.  
   Requires TensorFlow with CUDA support. Model checkpoints must be downloaded from [Hugging Face][huggingface].
